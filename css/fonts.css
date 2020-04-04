@@ -1,0 +1,22 @@
+/* IMPORTING FONTS */
+
+@font-face {
+    font-family: 'horizon';
+    src: url('../fonts/horizon.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'horizon-outlined';
+    src: url('../fonts/horizon-outlined.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .tester{
+      color:black;
+      font-family: 'horizon', Arial, Helvetica, sans-serif;
+      font-size: 1.2rem;
+  
+}
