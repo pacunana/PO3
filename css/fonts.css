@@ -14,9 +14,23 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'avenir-medium';
+    src: url('../fonts/avenir-medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'avenir-black';
+    src: url('../fonts/avenir-black.ttf');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   .tester{
       color:black;
-      font-family: 'horizon', Arial, Helvetica, sans-serif;
-      font-size: 1.2rem;
+      font-family: 'avenir-black', Helvetica, sans-serif;
+      font-size: 4.2rem;
   
 }
