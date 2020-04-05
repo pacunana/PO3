@@ -1,36 +1,60 @@
 /* IMPORTING FONTS */
 
 @font-face {
-    font-family: 'horizon';
-    src: url('../fonts/horizon.ttf');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'horizon';
+  src: url('../fonts/horizon.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: 'horizon-outlined';
-    src: url('../fonts/horizon-outlined.ttf');
-    font-weight: normal;
-    font-style: normal;
-  }
+@font-face {
+  font-family: 'horizon-outlined';
+  src: url('../fonts/horizon-outlined.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: 'avenir-medium';
-    src: url('../fonts/avenir-medium.ttf');
-    font-weight: normal;
-    font-style: normal;
-  }
+@font-face {
+  font-family: 'avenir-medium';
+  src: url('../fonts/avenir-medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
-  @font-face {
-    font-family: 'avenir-black';
-    src: url('../fonts/avenir-black.ttf');
-    font-weight: normal;
-    font-style: normal;
-  }
+@font-face {
+  font-family: 'avenir-black';
+  src: url('../fonts/avenir-black.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
-  .tester{
-      color:black;
-      font-family: 'avenir-black', Helvetica, sans-serif;
-      font-size: 4.2rem;
-  
+h1{
+  font-family:  'horizon', Helvetica, sans-serif;
+  color:white;
+  padding:0;
+  margin:0;
+  font-size: 3rem;
+}
+h2{
+  font-family:  'horizon-outline', Helvetica, sans-serif;
+  color:white;
+  padding:0;
+  margin:0;
+}
+h3{
+  font-family:  'avenir-black', Helvetica, sans-serif;
+  color:white;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  padding:0;
+  margin:0;
+  display: inline-block;
+}
+
+.link{
+text-decoration:  underline white solid;
+}
+
+.blue{
+  color:#8ACDFE;
 }
