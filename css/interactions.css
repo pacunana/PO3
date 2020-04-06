@@ -1,0 +1,17 @@
+.nav-link:hover{
+    color:#8ACDFE;
+    font-family:  'horizon', Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.text-link:hover{
+    color:#8ACDFE;
+}
+
+.button:hover{
+    background-color:#8ACDFE;
+    color:white;
+}
