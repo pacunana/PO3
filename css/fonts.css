@@ -33,7 +33,7 @@ h1{
   color:white;
   padding:0;
   margin:0;
-  font-size: 4rem;
+  font-size: 1.5rem;
 }
 
 h2{
@@ -41,7 +41,7 @@ h2{
   color:white;
   padding:0;
   margin:0;
-  font-size: 3rem;
+  font-size: 1.5rem;
   text-decoration: none;
   font-weight: normal;
 }
@@ -50,7 +50,7 @@ h3{
   display: block;
   font-family:  'avenir-medium', Helvetica, sans-serif;
   color:white;
-  font-size: 1.4rem;
+  font-size: 1rem;
   letter-spacing: 2px;
   padding:0;
   margin:0;
@@ -70,7 +70,7 @@ h4{
 
 p{
   font-family:  'avenir-medium', Helvetica, sans-serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
   color:white;
 
 
@@ -92,7 +92,7 @@ text-decoration:  underline white solid;
   display: block;
   font-family:  'horizon-outlined', Helvetica, sans-serif;
   color:white;
-  font-size: 3em;
+  font-size: 1.5em;
   letter-spacing: 2px;
   padding:0;
   margin:0;

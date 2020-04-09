@@ -1,8 +1,5 @@
-@media screen and (max-width:800px){
- 
-}
 
-@media screen and (max-width:1500px){
+@media screen and (max-width:1000px){
 .home-container{
   flex-direction: column; 
   text-align: center;
