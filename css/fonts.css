@@ -46,8 +46,19 @@ h2{
   font-weight: normal;
 }
 
-
 h3{
+  display: block;
+  font-family:  'avenir-medium', Helvetica, sans-serif;
+  color:white;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  padding:0;
+  margin:0;
+  display: inline-block;
+
+}
+
+h4{
   font-family:  'avenir-black', Helvetica, sans-serif;
   color:white;
   font-size: 1.2rem;
@@ -57,6 +68,13 @@ h3{
   display: inline-block;
 }
 
+p{
+  font-family:  'avenir-medium', Helvetica, sans-serif;
+  font-size: 1.4rem;
+  color:white;
+
+
+}
 .link{
 text-decoration:  underline white solid;
 }
@@ -69,14 +87,6 @@ text-decoration:  underline white solid;
   color: #e1e1e1;
 }
 
-.active{
-  color:#8ACDFE;
-  font-family:  'horizon', Helvetica, sans-serif;
-  padding:0;
-  margin:0;
-  font-size: 3rem;
-  text-decoration: none;
-}
 
 .nav-link{
   display: block;
@@ -95,7 +105,7 @@ text-decoration:  underline white solid;
   display: block;
   font-family:  'avenir-black', Helvetica, sans-serif;
   color:white;
-  font-size: 2rem;
+  font-size: 1.4rem;
   letter-spacing: 2px;
   padding:0;
   margin:0;
@@ -112,4 +122,25 @@ text-decoration:  underline white solid;
   font-size: 2rem;
   letter-spacing: 2px;
   text-decoration: none;
+}
+
+.project-heading{
+  font-family:  'avenir-black', Helvetica, sans-serif;
+  color:white;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+
+.project-link{
+  display: block;
+  font-family:  'avenir-black', Helvetica, sans-serif;
+  color:white;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  padding:0;
+  margin:0;
+  display: inline-block;
+
 }

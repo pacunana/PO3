@@ -1,17 +1,19 @@
 .about-container{
     display: flex;
-    flex-direction: row;
-    padding: 10vh 5vw 10vh 5vw;
-    justify-content: space-between;
+    flex-direction: column;
+    padding:5% 5%;
 }
 
 .left{
-    height:75vh;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
 }
 
-.navigation{
-    flex-direction: column;
+.bio{
+justify-content: center;
+padding:10% 20%;
+}
+
+.contact{
+    padding-top:4rem;
 }

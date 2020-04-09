@@ -47,22 +47,56 @@
   font-size:2rem;
 }
 
-.text-link{
-  font-size:2rem;
-}
 
 .name{
   margin-top:1rem;
   padding-bottom:2rem;
   border-bottom:solid white 1px;
 }
-.button{
-  background-color: #E1E1E1;
-  padding: 1rem 2em;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
+
+.text{
+  padding:2rem 0;
+  border-bottom: 1px white solid;
+  margin:0 0;
+}
+}
+
+@media screen and (max-width:1500px){
+.home-container{
+  flex-direction: column; 
   text-align: center;
+}
+.navigation{
+  text-align: center;
+}
+.left{
+display: block;
+  height:auto;
+}
+.bio-space{
+  word-spacing: 10px;
+  font-size:5vw;
+}
+.resize{
+  width:80vw;
+}
+.column{
+  flex-direction: row;
+}
+.right{
+  padding:0;
+  margin-top:3rem;
+}
+
+.nav-link{
+  font-size:3vw;
+}
+.nav-link:hover{
+  font-size:3vw;
+}
+.process-img{
+  max-height: 100%;
+  width: 100%;
 }
 
 }

@@ -1,7 +1,7 @@
 .home-container{
     display: flex;
     flex-direction: row;
-    padding: 10vh 5vw 10vh 5vw;
+    padding:5% 5%;
     justify-content: space-between;
 }
 
@@ -12,18 +12,6 @@
     justify-content: space-between;
 }
 
-.navigation{
-    flex-direction: column;
-}
-
-/* .column{
-    display: flex;
-    flex-direction: ;
-} */
-.introduction{
-    display: flex;
-flex-direction: column;
-}
 
 .home-link{
     padding-top:3rem;
@@ -31,11 +19,12 @@ flex-direction: column;
 
 .right{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    padding-left:2rem;
 }
 .resize{
-    width: 20vw;
+width:50vw
 }
 .image-2{
-    margin-left:1rem;
+    margin-top:1rem;
 }

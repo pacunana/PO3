@@ -6,11 +6,56 @@ body{
     margin:0;
 }
 
-.button{
-  background-color: #E1E1E1;
-  padding: 1rem 2em;
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
+.active{
+  color:#8ACDFE;
+  font-family:  'horizon', Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.navigation{
+  flex-direction: column;
+}
+.introduction{
+  display: flex;
+flex-direction: column;
+}
+
+.column{
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.text{
+  padding:2rem 0;
+  margin: 0 20vw;
+}
+
+.line{
+  border-bottom: 1px white solid;
+
+}
+.banner{
+text-align: center;
+margin:4rem 0 0 0;
+}
+
+.banner-img{
+  max-height: 100%;
+  width: 100%;}
+
+.process-img{
+  max-height: 100%;
+  width: 100%;
+}
+
+.process{
   text-align: center;
+}
+
+.next{
+  padding-top:4rem;
+  text-align:  center;
 }
