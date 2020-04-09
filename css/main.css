@@ -49,6 +49,7 @@ margin:4rem 0 0 0;
 .process-img{
   max-height: 100%;
   width: 100%;
+  margin-top:0.5rem;
 }
 
 .process{
@@ -58,4 +59,11 @@ margin:4rem 0 0 0;
 .next{
   padding-top:4rem;
   text-align:  center;
+}
+
+.footer{
+  display: flex;
+  display: row;
+  padding:3rem;
+  justify-content: space-evenly;
 }

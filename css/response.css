@@ -54,10 +54,9 @@
   border-bottom:solid white 1px;
 }
 
-.text{
-  padding:2rem 0;
-  border-bottom: 1px white solid;
-  margin:0 0;
+.footer{
+  flex-direction: column;
+  text-align: center;
 }
 }
 
@@ -97,6 +96,11 @@ display: block;
 .process-img{
   max-height: 100%;
   width: 100%;
+}
+.text{
+  padding:2rem 0;
+  border-bottom: 1px white solid;
+  margin:0 0;
 }
 
 }
