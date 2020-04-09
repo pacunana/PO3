@@ -23,6 +23,9 @@ body{
 flex-direction: column;
 }
 
+.about-introduction{
+padding-bottom:14rem;
+}
 .column{
   display: inline-flex;
   flex-direction: row;
@@ -65,5 +68,20 @@ margin:4rem 0 0 0;
   display: flex;
   display: row;
   padding:3rem;
-  justify-content: space-evenly;
+justify-content: space-evenly;
 }
+
+::-webkit-scrollbar{
+  width:15px;
+}
+
+::-webkit-scrollbar-thumb{
+  background:linear-gradient(180deg, #0068B4 0%, #8BCEFF 100%);
+border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background:linear-gradient(180deg, #0068B4 0%, #8BCEFF 100%);
+border-radius: 6px;
+}
+

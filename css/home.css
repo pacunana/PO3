@@ -25,6 +25,10 @@
 .resize{
 width:50vw
 }
+
+.main-img{
+    opacity: 1;
+}
 .image-2{
     margin-top:1rem;
 }

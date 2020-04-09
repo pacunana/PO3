@@ -43,6 +43,7 @@
 }
 
 .example{
+  margin-left: 25rem;
   display: flex;
   flex-direction: column;
 }
