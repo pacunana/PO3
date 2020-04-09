@@ -1,0 +1,17 @@
+.about-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10vh 5vw 10vh 5vw;
+    justify-content: space-between;
+}
+
+.left{
+    height:75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navigation{
+    flex-direction: column;
+}

@@ -1,14 +1,11 @@
 @media screen and (max-width:800px){
-  .container{
+  .guide-container{
     display: flex;
     flex-direction: column;
     }
-
   .sidebar{
     height:auto;
   }
-
-
   .box-1{
     margin-top:2rem;
     text-align: center;
@@ -59,7 +56,6 @@
   padding-bottom:2rem;
   border-bottom:solid white 1px;
 }
-
 .button{
   background-color: #E1E1E1;
   padding: 1rem 2em;

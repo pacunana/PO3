@@ -33,7 +33,7 @@ h1{
   color:white;
   padding:0;
   margin:0;
-  font-size: 2vw;
+  font-size: 4rem;
 }
 
 h2{
@@ -41,7 +41,7 @@ h2{
   color:white;
   padding:0;
   margin:0;
-  font-size: 1.5vw;
+  font-size: 3rem;
   text-decoration: none;
   font-weight: normal;
 }
@@ -69,24 +69,38 @@ text-decoration:  underline white solid;
   color: #e1e1e1;
 }
 
-.nav-link{
-  font-family:  'horizon-outlined', Helvetica, sans-serif;
-  color:white;
+.active{
+  color:#8ACDFE;
+  font-family:  'horizon', Helvetica, sans-serif;
   padding:0;
   margin:0;
-  font-size: 2vw;
+  font-size: 3rem;
   text-decoration: none;
+}
+
+.nav-link{
+  display: block;
+  font-family:  'horizon-outlined', Helvetica, sans-serif;
+  color:white;
+  font-size: 3em;
+  letter-spacing: 2px;
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  display: inline-block;
+
 }
 
 .text-link{
   display: block;
   font-family:  'avenir-black', Helvetica, sans-serif;
   color:white;
-  font-size: 1vw;
+  font-size: 2rem;
   letter-spacing: 2px;
   padding:0;
   margin:0;
   display: inline-block;
+
 }
 
 .button{
